@@ -1,4 +1,5 @@
 Django Blog & English-Spanish Translator 🌐✍️
+
 A web application built with Python and Django that allows users to create and manage blog posts and translate text from Spanish to English.
 
 🚀 Features
