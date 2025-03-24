@@ -1,0 +1,14 @@
+<!--Aqui vamos a crear el html template pero hay que ponerlo refiriendose al object.title o object.author metiendolo dentro de dos corchetes para que funcione.
+Una vez creado el html si vamos a la web vemos que sólo aparecen las palabras escritas entonces tenemos que crear el view para enlazarlo. Antes de hacer esto 
+tenemos que ir al archivo settings dentro de mysite y añadir al final TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates') si nuestra carpeta 
+donde está el archivo blog.html se llama diferente de templates o si está dentro de otra carpeta hay que especificar la ruta.
+-->
+
+{% extends 'base.html' %}  
+{% block content %} 
+<div>
+        <h1>{{object.title}}</h1>
+        <p>{{object.content}}</p>
+        <p>{{object.author}}</p>
+</div>
+{% endblock content %} 
