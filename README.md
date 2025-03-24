@@ -1,6 +1,6 @@
 Django Blog & English-Spanish Translator 🌐✍️
 
-A web application built with Python and Django that allows users to create and manage blog posts and translate text from Spanish to English.
+A web application built with Python and Django that allows users to create and manage blog posts and translate text from English to Spanish.
 
 🚀 Features
 
@@ -55,6 +55,6 @@ Visit http://127.0.0.1:8000/ in your browser.
 
 ✨ How It Works
 Blog App: Create and manage blog posts with the Django admin or frontend views.
-Translator App: Input English text in low case, click Submit, and see the Spanish output using the googletrans library.
+Translator App: Input English text, click Submit, and see the Spanish output using the googletrans library.
 
 ⭐ If you like this project, give it a star!
