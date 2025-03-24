@@ -14,4 +14,4 @@ class AboutView(generic.TemplateView): #aqui estaba al principio index pero desp
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-date_created')
-    template_name = 'index.html'
+    template_name = 'index2.html'
